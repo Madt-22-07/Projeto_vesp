@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerenciador de Tarefas </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./usuario.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <span>O</span>
+        <span>R</span>
+        <span>G</span>
+        <span>A</span>
+        <span>N</span>
+        <span>I</span>
+        <span>Z</span>
+        <span>A</span>
+        <span>D</span>
+        <span>O</span>
+        <span>R</span>
+        <span>.</span>
+        <span>M</span>
+        <span>E</span>
+    </div>
+
+    <div id="menu">
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="./home.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="./usuario.html">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="title">Usuário</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="index.html">
+
+                        <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
+                        <span class="title">Planejamento</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="./tela1.html">
+                        <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                        <span class="title">Sair</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <script src="./menu.js"></script>
+
+        <div class="home" id="home">
+
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                        <img class="rounded-circle mt-5" width="150px" src="https://br.web.img3.acsta.net/pictures/22/09/14/15/29/4822518.png" />
+                        <span class="font-weight-bold">Jacob Turner</span>
+                        <span class="text-black-50">
+                            jacob.turner@gmail.com
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-5 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-center align-intems-center mb-3">
+                            <h4> Configurações do Perfil </h4>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <label class="labels"> 
+                                    Nome
+                                </label>
+                                <input type="text" class="form-control" placeholder="primeiro nome" value="">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="labels"> 
+                                    Sobrenome
+                                </label>
+                                <input type="text" class="form-control" placeholder="segundo nome" value="">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12">
+                                <label> 
+                                    Número de Telefone 
+                                </label>
+                                <input type="text" class="form-control" placeholder="telefone para contato" value="">
+                            </div>
+                            <div class="col-md-12">
+                                <label> 
+                                    Bairro 
+                                </label>
+                                <input type="text" class="form-control" placeholder="digite o bairro" value="">
+                            </div>
+                            <div class="col-md-12">
+                                <label> 
+                                Rua 
+                            </label>
+                                <input type="text" class="form-control" placeholder="digite a rua" value="">
+                            </div>
+                            <div class="col-md-12">
+                                <label> 
+                                CEP 
+                            </label>
+                                <input type="text" class="form-control" placeholder="digite o CEP" value="">
+                            </div>
+                            <div class="col-md-12">
+                                <label> 
+                                Estado 
+                            </label>
+                                <input type="text" class="form-control" placeholder="digite o estado" value="">
+                            </div>
+                            <div class="col-md-12">
+                                <label> 
+                                E-mail 
+                            </label>
+                                <input type="text" class="form-control" placeholder="digite o e-mail" value="">
+                            </div>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <button class="btn btn-primary profile-button" type="button"> Salvar </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h4>
+                                Informações de Login
+                            </h4>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels">
+                                Login
+                            </label>
+                            <input type="password" class="form-control" value="">
+                        </div>
+                        <div class="col-md-12">
+                            <label class="labels">
+                                Senha
+                            </label>
+                            <input type="text" class="form-control" value="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
