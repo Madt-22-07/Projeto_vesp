@@ -20,7 +20,7 @@ const Teladois = database.define('teladois', {
         type: Sequelize.TEXT,
         allowNull: false
     },
-    confimpassword: {
+    confirmpassword: {
         type: Sequelize.TEXT,
         allowNull: false
     }
